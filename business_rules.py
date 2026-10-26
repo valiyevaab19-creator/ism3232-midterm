@@ -89,7 +89,7 @@ def largest_shipment(shipments: list) -> str:
     return largest_buyer
 
 
-def formet_shipment_line(
+def format_shipment_line(
     buyer: str, total: float, prepayment: bool, pallet: bool
 ) -> str:
     """Format one shipment report line."""
